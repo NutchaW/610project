@@ -1,2 +1,6 @@
 library(cdcfluview)
 library(tidyverse)
+dattest<-ilinet(region=c("state"),years = 2017)
+agedis<-age_group_distribution(years=2017)
+geographic_spread(years=2017)
+census_regions("")
